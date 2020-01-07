@@ -59,3 +59,38 @@ main {
 	margin: 15px 0 5px;
 }
 
+@media screen and (max-width: 768px) {
+	* {
+		color: #6c6b6b;
+	}
+
+	main {
+		width: 90%;
+		margin: 50px 5%;
+	}
+
+	.step-box {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.step-box:last-child {
+		margin-bottom: 0;
+	}
+	.step-img1 {
+		width: 100%;
+		height: auto;
+		padding-top: 40%;
+	}
+	.step-img2 {
+		width: 100%;
+		height: auto;
+		padding-top: 40%;
+	}
+	.step-img3 {
+		width: 100%;
+		height: auto;
+		padding-top: 40%;
+	}
+
+}
